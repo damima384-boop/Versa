@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "versa",
-  "main": "worker/index.js",
+  "main": "index.js",
   "compatibility_date": "2026-11-15",
   "assets": {
     "directory": "./public",

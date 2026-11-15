@@ -1,0 +1,16 @@
+{
+  "name": "versa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VERSA — an international business and services platform",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 migrations apply versa-db --local",
+    "db:remote": "wrangler d1 migrations apply versa-db --remote",
+    "cf:types": "wrangler types"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
